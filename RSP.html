@@ -10,38 +10,28 @@
 
 <body>
 <form name="frm">
-<table border="1" align="center" width="900"> <!-- 표의 테두리 두께를 1로 설정한다/ 표의 내용들을 모두 가운데 정렬한다. / 폭은 900 -->
+<table border="1" align="center" width="900"> 
   <tr><th>
     <h1>웹페이지 연구_01_RSP</h1>
     <h3>바위,가위,보 중 하나를 선택하세요</h3>
     <p>
-    <a href="javascript:goAndStop('1')"><img src="바위.png"></a>　<!-- 바위 버튼/ 클릭할 경우 JS에서 1로 이동(case 1) -->
-    <a href="javascript:goAndStop('2')"><img src="가위.png"></a>　<!-- 가위 버튼/ 클릭할 경우 JS에서 2로 이동(case 2) -->
-    <a href="javascript:goAndStop('3')"><img src="보.png"  ></a>  <!-- 보 버튼/ 클릭할 경우 JS에서 3로 이동(case 3) -->
+    <a href="javascript:goAndStop('1')"><img src="바위.png"></a>　
+    <a href="javascript:goAndStop('2')"><img src="가위.png"></a>　
+    <a href="javascript:goAndStop('3')"><img src="보.png"  ></a>  
   </p>
   <p>
-    결과 : <input name="msgBox" type="text" size="10"> 　　<!-- 텍스트박스 출력/ 이름은 msgbox / 글씨 크기는 10 -->
-    전적 : <input name="msgBox2" type="text" size="10">    <!-- 텍스트박스 출력/ 이름은 msgbox2 / 글씨 크기는 10 -->
+    결과 : <input name="msgBox" type="text" size="10"> 　
+    전적 : <input name="msgBox2" type="text" size="10">   
   </p>
   <p> 　
-    <img src="바위.png" border="0" name="userImg"> <!-- 자신의 선택영역에 등장하는 사진 / 웹사이트에 처음 접속 시 주먹 사진이 나옴, 이름은 userimg -->
+    <img src="바위.png" border="0" name="userImg"> 
     YOU　　　VS　　　COM
-    <img src="바위.png" border="0" name="comImg">  <!-- 컴퓨터의 선택영역에 등장하는 사진 / 웹사이트에 처음 접속 시 주먹 사진이 나옴, 이름은 comimg -->
+    <img src="바위.png" border="0" name="comImg">
   </p>
-  　<input type="button" value="재시작" onClick="location='RSP.html'"> <br/>　<!-- 재시작 버튼 (=새로고침) -->
+  　<input type="button" value="재시작" onClick="location='RSP.html'"> <br/>
 </th></tr>
 </table>
 
-<!--
-              웹페이지 연구_01_RSP
-        바위, 가위, 보 중 하나를 선택하세요
-
-         (바위버튼) (가위버튼) (보버튼)
-          결과:(텍스트)  전적:(텍스트)
-    (선택이미지) YOU  VS  COM (컴퓨터이미지)
-                  (재시작버튼)
-
-  -->
 
 </form>
 </body>
